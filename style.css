@@ -66,6 +66,7 @@ header {
     border: 2px solid white;
     border-radius: 40px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 #btn-join-hydra {
@@ -74,6 +75,7 @@ header {
     border: none;
     border-radius: 40px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 main {
@@ -118,6 +120,7 @@ main {
 .btn-main {
     display: flex;
     gap: 40px;
+    margin-bottom: 157px;
 }
 
 .btn-main button {
@@ -127,4 +130,44 @@ main {
     border-radius: 40px;
     color: var(--font-color);
     background-image: linear-gradient(to right, #8176AF, #C0B7E8);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.img-section img {
+    filter: 
+}
+
+footer {
+    width: 1272px;
+    height: 167px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, #211E2E, #3A3456, #211E2E);
+    border-radius: 90px;
+    font-family: var(--font);
+    color: white;
+}
+
+.location, .fone, .email {
+    display: flex;
+    gap: 16px;
+}
+
+.location-info, .fone-info, .email-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fone {
+    border-left: 1px solid rgba(192, 183, 232, 0.33);
+    border-right: 1px solid rgba(192, 183, 232, 0.33);
+    padding: 38px;
+}
+
+.email-info a {
+    text-decoration: none;
+    color: white;
 }
